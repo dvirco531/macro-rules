@@ -1,3 +1,5 @@
+/// Main for macros simple tests with prints to both max and calculate macro
+/// 
 #[macro_use]
 mod max;
 #[macro_use]

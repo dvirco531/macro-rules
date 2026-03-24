@@ -1,3 +1,11 @@
+/// Perform arithmetic operation on two expression with operator.
+/// Supported operator.
+/// Add
+/// Substract
+/// Multiply
+/// Divide
+/// 
+/// If unknown operation received nor devision by 0 an error will occur, compilation nor panic
 macro_rules! calculate {
     (add, $var:expr, $var2:expr) => {{
         let var = $var;
